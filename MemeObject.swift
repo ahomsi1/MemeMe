@@ -6,4 +6,13 @@
 //  Copyright © 2017 Amer Homsi. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+struct Meme {
+    
+    let originalImage: UIImage
+    let topText: String
+    let bottomText: String
+    let memedImage: UIImage?
+}
